@@ -1,0 +1,28 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "\"My Babel\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yomatvha/babel.git"
+  },
+  "author": "yomatvienko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yomatvha/babel/issues"
+  },
+  "homepage": "https://github.com/yomatvha/babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5"
+  },
+  "dependencies": {
+    "core-js": "^3.31.0"
+  }
+}
